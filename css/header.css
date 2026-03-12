@@ -1,0 +1,31 @@
+header{
+background:#111;
+color:white;
+padding:30px;
+}
+
+header h1{
+margin:0;
+font-size:32px;
+}
+
+header p{
+margin:5px 0 20px 0;
+}
+
+nav ul{
+list-style:none;
+padding:0;
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
