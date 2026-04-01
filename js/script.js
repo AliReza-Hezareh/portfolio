@@ -12,7 +12,8 @@ const translations = {
       about: "Om mig | Ali Reza",
       cv: "CV | Ali Reza",
       contact: "Kontakt | Ali Reza",
-      hyresgastforeningen: "Hyresgastforeningen Marmorvagen 13 | Ali Reza"
+      hyresgastforeningen: "Hyresgastforeningen Marmorvagen 13 | Ali Reza",
+      sosbarnbyar: "SOS Barnbyars ungdomsrad | Ali Reza"
     },
     index: {
       eyebrow: "Tillganglig for QA och frontend",
@@ -50,6 +51,9 @@ const translations = {
       housingTitle: "Hyresgastforeningen Marmorvagen 13",
       housingText: "En webbplats jag skapade for den lokala hyresgastforeningen dar jag ocksa ar vice ordforande och kassor.",
       housingLink: "Oppna projektsidan",
+      sosTitle: "SOS Barnbyars ungdomsrad",
+      sosText: "Jag ar ordforande i ungdomsradet och mycket aktiv i arbetet med att lyfta ungas perspektiv, ideer och initiativ.",
+      sosLink: "Las mer om engagemanget",
       crossroadsTitle: "Crossroads QA Testing",
       crossroadsText: "Testplanering, manuell testning, dokumentation och kvalitetstank under min praktikperiod.",
       pythonTitle: "Python Adventure Game",
@@ -93,6 +97,9 @@ const translations = {
       exp2Meta: "Foreningsarbete",
       exp2Title: "Hyresgastforeningen Marmorvagen 13",
       exp2Text: "Byggde webbplatsen och arbetar i foreningen som vice ordforande och kassor.",
+      exp3Meta: "Foreningsarbete",
+      exp3Title: "SOS Barnbyars ungdomsrad",
+      exp3Text: "Ar ordforande i ungdomsradet och starkt engagerad i att representera ungas roster, ideer och initiativ.",
       skillsTitle: "Kompetenser",
       skill1: "Manuell testning",
       skill2: "Buggrapportering och dokumentation",
@@ -132,6 +139,18 @@ const translations = {
       repoTitle: "Repository",
       repoText: "Projektets kod finns pa GitHub.",
       repoLink: "Visa repot"
+    },
+    sos: {
+      eyebrow: "Ledarskap och engagemang",
+      title: "SOS Barnbyars ungdomsrad",
+      intro: "Jag ar ordforande for SOS Barnbyars ungdomsrad och har ett starkt och aktivt engagemang i arbetet. Rollen handlar om att lyfta ungas perspektiv, bidra med ideer och vara en tydlig rost i viktiga fragor.",
+      roleTitle: "Mitt engagemang",
+      role1: "Leder ungdomsradets arbete som ordforande.",
+      role2: "Driver samtal och initiativ som bygger pa ungas erfarenheter och behov.",
+      role3: "Ar mycket aktiv i planering, representation och utveckling av radets arbete.",
+      role4: "Bidrar med ansvarstagande, kommunikation och struktur i ideellt arbete.",
+      impactTitle: "Vad det visar om mig",
+      impactText: "Detta engagemang visar mitt ledarskap, min ansvarskansla och min vilja att bidra i sammanhang som gor verklig skillnad. Det ar en viktig del av vem jag ar, bade professionellt och personligt."
     }
   },
   en: {
@@ -147,7 +166,8 @@ const translations = {
       about: "About | Ali Reza",
       cv: "CV | Ali Reza",
       contact: "Contact | Ali Reza",
-      hyresgastforeningen: "Hyresgastforeningen Marmorvagen 13 | Ali Reza"
+      hyresgastforeningen: "Hyresgastforeningen Marmorvagen 13 | Ali Reza",
+      sosbarnbyar: "SOS Children's Villages Youth Council | Ali Reza"
     },
     index: {
       eyebrow: "Available for QA and frontend work",
@@ -185,6 +205,9 @@ const translations = {
       housingTitle: "Hyresgastforeningen Marmorvagen 13",
       housingText: "A website I created for the local tenants' association where I also serve as vice chairperson and treasurer.",
       housingLink: "Open project page",
+      sosTitle: "SOS Children's Villages Youth Council",
+      sosText: "I am the chairperson of the youth council and highly active in representing young voices, ideas, and initiatives.",
+      sosLink: "Read more about this role",
       crossroadsTitle: "Crossroads QA Testing",
       crossroadsText: "Test planning, manual testing, documentation, and quality thinking during my internship.",
       pythonTitle: "Python Adventure Game",
@@ -228,6 +251,9 @@ const translations = {
       exp2Meta: "Association work",
       exp2Title: "Hyresgastforeningen Marmorvagen 13",
       exp2Text: "Built the website and serve in the association as vice chairperson and treasurer.",
+      exp3Meta: "Association work",
+      exp3Title: "SOS Children's Villages Youth Council",
+      exp3Text: "Chairperson of the youth council, actively representing young voices, ideas, and initiatives.",
       skillsTitle: "Skills",
       skill1: "Manual testing",
       skill2: "Bug reporting and documentation",
@@ -267,6 +293,18 @@ const translations = {
       repoTitle: "Repository",
       repoText: "The project code is available on GitHub.",
       repoLink: "View repository"
+    },
+    sos: {
+      eyebrow: "Leadership and engagement",
+      title: "SOS Children's Villages Youth Council",
+      intro: "I am the chairperson of SOS Children's Villages' youth council and I am very active in the work. The role is about lifting young people's perspectives, contributing ideas, and being a clear voice in important discussions.",
+      roleTitle: "My involvement",
+      role1: "Lead the youth council as chairperson.",
+      role2: "Drive conversations and initiatives based on young people's experiences and needs.",
+      role3: "Take an active role in planning, representation, and continued development of the council's work.",
+      role4: "Contribute responsibility, communication, and structure in non-profit work.",
+      impactTitle: "What it shows about me",
+      impactText: "This role reflects my leadership, sense of responsibility, and willingness to contribute in areas that create real impact. It is an important part of who I am, both professionally and personally."
     }
   },
   fa: {
@@ -282,7 +320,8 @@ const translations = {
       about: "درباره من | علی رضا",
       cv: "رزومه | علی رضا",
       contact: "تماس | علی رضا",
-      hyresgastforeningen: "وب سایت انجمن مستاجران مارمورواگن 13 | علی رضا"
+      hyresgastforeningen: "وب سایت انجمن مستاجران مارمورواگن 13 | علی رضا",
+      sosbarnbyar: "شورای جوانان SOS | علی رضا"
     },
     index: {
       eyebrow: "آماده برای QA و فرانت اند",
@@ -320,6 +359,9 @@ const translations = {
       housingTitle: "انجمن مستاجران مارمورواگن 13",
       housingText: "وب سایتی که برای انجمن محلی مستاجران ساختم؛ جایی که خودم هم نایب رئیس و خزانه دار هستم.",
       housingLink: "باز کردن صفحه پروژه",
+      sosTitle: "شورای جوانان SOS",
+      sosText: "من رئیس شورای جوانان هستم و در نمایندگی از صدای جوانان، ایده ها و ابتکارها بسیار فعال هستم.",
+      sosLink: "بیشتر بخوانید",
       crossroadsTitle: "Crossroads QA Testing",
       crossroadsText: "برنامه ریزی تست، تست دستی، مستندسازی و نگاه کیفی در دوره کارآموزی.",
       pythonTitle: "Python Adventure Game",
@@ -363,6 +405,9 @@ const translations = {
       exp2Meta: "کار انجمن",
       exp2Title: "انجمن مستاجران مارمورواگن 13",
       exp2Text: "ساخت وب سایت و فعالیت در انجمن به عنوان نایب رئیس و خزانه دار.",
+      exp3Meta: "کار انجمن",
+      exp3Title: "شورای جوانان SOS",
+      exp3Text: "رئیس شورای جوانان هستم و به شکلی بسیار فعال صدای جوانان، ایده ها و ابتکارها را نمایندگی می کنم.",
       skillsTitle: "مهارت ها",
       skill1: "تست دستی",
       skill2: "گزارش باگ و مستندسازی",
@@ -402,6 +447,18 @@ const translations = {
       repoTitle: "مخزن",
       repoText: "کد پروژه در GitHub در دسترس است.",
       repoLink: "مشاهده مخزن"
+    },
+    sos: {
+      eyebrow: "رهبری و مشارکت",
+      title: "شورای جوانان SOS",
+      intro: "من رئیس شورای جوانان SOS هستم و در این نقش بسیار فعال ام. این مسئولیت یعنی بالا آوردن نگاه جوانان، ارائه ایده ها و حضور موثر در گفتگوهای مهم.",
+      roleTitle: "نقش من",
+      role1: "به عنوان رئیس، کار شورا را هدایت می کنم.",
+      role2: "گفتگوها و ابتکارهایی را پیش می برم که بر پایه تجربه و نیازهای جوانان است.",
+      role3: "در برنامه ریزی، نمایندگی و توسعه کار شورا بسیار فعال هستم.",
+      role4: "در کار داوطلبانه با مسئولیت پذیری، ارتباط و ساختار کمک می کنم.",
+      impactTitle: "این نقش چه چیزی از من نشان می دهد",
+      impactText: "این نقش نشان دهنده رهبری، حس مسئولیت و تمایل من به ایجاد تاثیر واقعی است. این بخش مهمی از هویت حرفه ای و شخصی من است."
     }
   }
 };
