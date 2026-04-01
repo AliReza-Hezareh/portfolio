@@ -4,127 +4,129 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ali Reza | Portfolio</title>
-
 <link rel="stylesheet" href="css/style.css">
 </head>
-
-<body>
-
-<header>
-
-<h1>Ali Reza</h1>
-<p>QA Engineer / Test Automation</p>
-
-<nav>
-<ul>
-
-<li><a href="index.html">Home</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="qa.html">QA Work</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="cv.html">CV</a></li>
-<li><a href="contact.html">Contact</a></li>
-
-</ul>
-</nav>
-
+<body data-page="index">
+<div class="page-shell">
+<header class="site-header">
+  <div class="topbar">
+    <div class="brand">
+      <h1 data-i18n="siteName">Ali Reza</h1>
+      <p data-i18n="siteRole">QA engineer, test automation learner and web developer</p>
+    </div>
+    <div class="language-switcher">
+      <label for="language-select" data-i18n="languageLabel">Language</label>
+      <select id="language-select" aria-label="Language selector">
+        <option value="sv">Svenska</option>
+        <option value="en">English</option>
+        <option value="fa">فارسی</option>
+      </select>
+    </div>
+  </div>
+  <nav class="site-nav">
+    <ul>
+      <li><a href="index.html" class="active" data-i18n="nav.home">Home</a></li>
+      <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+      <li><a href="qa.html" data-i18n="nav.qa">QA Work</a></li>
+      <li><a href="about.html" data-i18n="nav.about">About</a></li>
+      <li><a href="cv.html" data-i18n="nav.cv">CV</a></li>
+      <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+  </nav>
 </header>
 
 <main>
+  <section class="hero-card">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow" data-i18n="index.eyebrow">Available for QA and frontend work</span>
+        <h2 class="hero-title" data-i18n="index.title">I build quality into digital products.</h2>
+        <p class="hero-copy" data-i18n="index.intro">I work with testing, test automation, and web projects that make digital services easier to use. This site brings together my experience, my projects, and the kind of work I want to keep building.</p>
+        <div class="hero-actions">
+          <a class="btn" href="projects.html" data-i18n="index.primaryCta">View projects</a>
+          <a class="btn-secondary" href="cv.html" data-i18n="index.secondaryCta">Read my CV</a>
+        </div>
+      </div>
+      <aside class="stats-card">
+        <h3 data-i18n="index.statsTitle">What I focus on</h3>
+        <ul class="stats-list">
+          <li data-i18n="index.stat1">Manual testing with clear test cases and reporting.</li>
+          <li data-i18n="index.stat2">Frontend and lightweight web solutions with HTML, CSS, and JavaScript.</li>
+          <li data-i18n="index.stat3">Practical projects where technology supports real needs in a community or organization.</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
 
-<section class="hero">
+  <section class="panel">
+    <h2 data-i18n="index.featuredTitle">Featured projects</h2>
+    <p class="panel-intro" data-i18n="index.featuredIntro">A selection that shows both QA work and personal development projects.</p>
+    <div class="projects-grid">
+      <article class="project-card">
+        <h3 data-i18n="index.project1Title">Hyresgastforeningen Marmorvagen 13</h3>
+        <p data-i18n="index.project1Text">I built the association website and combined the technical work with my role as vice chairperson and treasurer.</p>
+        <div class="tag-row">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Community</span>
+        </div>
+        <a class="project-link" href="hyresgastforeningen.html" data-i18n="index.project1Link">Read more about the project</a>
+      </article>
+      <article class="project-card">
+        <h3 data-i18n="index.project2Title">Crossroads QA Testing</h3>
+        <p data-i18n="index.project2Text">Internship work with test planning, manual testing, and quality documentation.</p>
+        <div class="tag-row">
+          <span class="tag">QA</span>
+          <span class="tag">Testing</span>
+          <span class="tag">Documentation</span>
+        </div>
+        <a class="project-link external" href="https://github.com/AliReza-Hezareh" target="_blank" rel="noreferrer">GitHub</a>
+      </article>
+      <article class="project-card">
+        <h3 data-i18n="index.project3Title">Python Adventure Game</h3>
+        <p data-i18n="index.project3Text">A text-based Python game that shows structure, logic, and interest in programming.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">Logic</span>
+          <span class="tag">Story</span>
+        </div>
+        <a class="project-link external" href="https://github.com/AliReza-Hezareh" target="_blank" rel="noreferrer">GitHub</a>
+      </article>
+      <article class="project-card">
+        <h3 data-i18n="index.project4Title">Frontend Experiments</h3>
+        <p data-i18n="index.project4Text">Small experiments to improve layout, component thinking, and user experience.</p>
+        <div class="tag-row">
+          <span class="tag">UI</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">CSS</span>
+        </div>
+        <a class="project-link external" href="https://github.com/AliReza-Hezareh" target="_blank" rel="noreferrer">GitHub</a>
+      </article>
+    </div>
+  </section>
 
-<h2>QA Engineer & Test Automation</h2>
-
-<p>
-I focus on testing web applications, building automated tests,
-and documenting software quality. My work includes QA testing,
-test automation, and development projects.
-</p>
-
-<div class="hero-buttons">
-
-<a class="btn" href="projects.html">View Projects</a>
-<a class="btn-outline" href="cv.html">View CV</a>
-
-</div>
-
-</section>
-
-<section>
-
-<h2>Featured Projects</h2>
-
-<div class="projects">
-
-<div class="project-card">
-
-<h3>Crossroads QA Testing</h3>
-
-<p>
-QA testing work done during my LIA internship. Includes test planning,
-manual testing and documentation.
-</p>
-
-<a class="project-link" href="https://github.com/AliReza-Hezareh" target="_blank">
-View on GitHub
-</a>
-
-</div>
-
-<div class="project-card">
-
-<h3>Hyresgastforeningen Marmorvagen 13</h3>
-
-<p>
-Website project for my local tenants' association, where I serve as
-vice chairperson and treasurer. The site presents local information
-and makes the association more visible online.
-</p>
-
-<a class="project-link" href="hyresgastforeningen.html">
-Read more
-</a>
-
-</div>
-
-<div class="project-card">
-
-<h3>Python Adventure Game</h3>
-
-<p>
-A text-based adventure game written in Python where players explore
-locations and interact with the story.
-</p>
-
-<a class="project-link" href="https://github.com/AliReza-Hezareh" target="_blank">
-View on GitHub
-</a>
-
-</div>
-
-
-<div class="project-card">
-
-<h3>Frontend Experiments</h3>
-
-<p>
-Small frontend experiments using HTML, CSS and JavaScript.
-</p>
-
-<a class="project-link" href="https://github.com/AliReza-Hezareh" target="_blank">
-View on GitHub
-</a>
-
-</div>
-
-</div>
-
-</section>
-
+  <section class="panel">
+    <h2 data-i18n="index.strengthsTitle">How I work</h2>
+    <p class="panel-intro" data-i18n="index.strengthsIntro">I value clarity, calm structure, and projects where you can genuinely feel quality improving.</p>
+    <div class="info-grid">
+      <article class="info-card">
+        <h3 data-i18n="index.strength1Title">Careful testing</h3>
+        <p data-i18n="index.strength1Text">I document bugs, test cases, and observations so teams can act quickly.</p>
+      </article>
+      <article class="info-card">
+        <h3 data-i18n="index.strength2Title">Technology with purpose</h3>
+        <p data-i18n="index.strength2Text">I prefer solutions that are easy to understand and easy to maintain.</p>
+      </article>
+      <article class="info-card">
+        <h3 data-i18n="index.strength3Title">Close to the mission</h3>
+        <p data-i18n="index.strength3Text">I enjoy roles where technology, communication, and responsibility meet.</p>
+      </article>
+    </div>
+  </section>
 </main>
 
+<footer class="footer" data-i18n="footer">Portfolio built to present QA work, development, and real-world projects.</footer>
+</div>
 <script src="js/script.js"></script>
-
 </body>
 </html>

@@ -4,81 +4,74 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hyresgastforeningen Marmorvagen 13 | Ali Reza</title>
-
 <link rel="stylesheet" href="css/style.css">
 </head>
-
-<body>
-
-<header>
-
-<h1>Ali Reza</h1>
-<p>Community website project</p>
-
-<nav>
-<ul>
-
-<li><a href="index.html">Home</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="qa.html">QA Work</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="cv.html">CV</a></li>
-<li><a href="contact.html">Contact</a></li>
-
-</ul>
-</nav>
-
+<body data-page="hyresgastforeningen">
+<div class="page-shell">
+<header class="site-header">
+  <div class="topbar">
+    <div class="brand">
+      <h1 data-i18n="siteName">Ali Reza</h1>
+      <p data-i18n="siteRole">QA engineer, test automation learner and web developer</p>
+    </div>
+    <div class="language-switcher">
+      <label for="language-select" data-i18n="languageLabel">Language</label>
+      <select id="language-select" aria-label="Language selector">
+        <option value="sv">Svenska</option>
+        <option value="en">English</option>
+        <option value="fa">فارسی</option>
+      </select>
+    </div>
+  </div>
+  <nav class="site-nav">
+    <ul>
+      <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+      <li><a href="projects.html" class="active" data-i18n="nav.projects">Projects</a></li>
+      <li><a href="qa.html" data-i18n="nav.qa">QA Work</a></li>
+      <li><a href="about.html" data-i18n="nav.about">About</a></li>
+      <li><a href="cv.html" data-i18n="nav.cv">CV</a></li>
+      <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+  </nav>
 </header>
 
 <main>
+  <section class="hero-card">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow" data-i18n="housing.eyebrow">Community project</span>
+        <h2 class="hero-title" data-i18n="housing.title">Hyresgastforeningen Marmorvagen 13</h2>
+        <p class="hero-copy" data-i18n="housing.intro">This is a website I created for my local tenants' association. The project shows how I combine web development with active responsibility in a local organization.</p>
+      </div>
+      <aside class="stats-card">
+        <h3 data-i18n="housing.repoTitle">Repository</h3>
+        <p data-i18n="housing.repoText">The project code is available on GitHub.</p>
+        <a class="btn" href="https://github.com/AliReza-Hezareh/Hyresg-stf-reningenMarmorv-gen13-site.git" target="_blank" rel="noreferrer" data-i18n="housing.repoLink">View repository</a>
+      </aside>
+    </div>
+  </section>
 
-<section>
-
-<h2>Hyresgastforeningen Marmorvagen 13 Website</h2>
-
-<p>
-This project is a website I created for my local tenants' association.
-It is a practical web project that combines communication, structure,
-and community service.
-</p>
-
-<p>
-In addition to building the website, I am active in the association as
-vice chairperson and treasurer. That gives me direct insight into the
-needs of the group and helps me create a site that is useful for members
-and visitors.
-</p>
-
-</section>
-
-<section>
-
-<h2>My Role</h2>
-
-<ul>
-<li>Planned and built the website structure and content.</li>
-<li>Created a simple web presence for the local association.</li>
-<li>Combined technical work with responsibility in the organization.</li>
-<li>Supported clearer communication for members and the local community.</li>
-</ul>
-
-</section>
-
-<section>
-
-<h2>Repository</h2>
-
-<p>
-You can view the project repository on GitHub here:
-</p>
-
-<a class="project-link" href="https://github.com/AliReza-Hezareh/Hyresg-stf-reningenMarmorv-gen13-site.git" target="_blank">
-View the Hyresgastforeningen repository
-</a>
-
-</section>
-
+  <section class="panel">
+    <div class="two-column">
+      <article class="info-card">
+        <h3 data-i18n="housing.roleTitle">My role</h3>
+        <ul class="bullet-list">
+          <li data-i18n="housing.role1">Built the website structure, content, and navigation.</li>
+          <li data-i18n="housing.role2">Created a clear digital presence for the association.</li>
+          <li data-i18n="housing.role3">Serve in the association as vice chairperson and treasurer.</li>
+          <li data-i18n="housing.role4">Used my understanding of the association's needs to make the website practical and relevant.</li>
+        </ul>
+      </article>
+      <article class="info-card">
+        <h3 data-i18n="housing.impactTitle">What the project shows</h3>
+        <p data-i18n="housing.impactText">The project shows that I do not only build the page technically, I also understand the organization behind it. I enjoy work where technology helps a group communicate more clearly and become more accessible.</p>
+      </article>
+    </div>
+  </section>
 </main>
 
+<footer class="footer" data-i18n="footer">Portfolio built to present QA work, development, and real-world projects.</footer>
+</div>
+<script src="js/script.js"></script>
 </body>
 </html>
