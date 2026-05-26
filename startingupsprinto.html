@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starting Up Sprinto | Ali Reza</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="startingupsprinto">
+<div class="page-shell">
+<header class="site-header">
+  <div class="topbar">
+    <div class="brand">
+      <h1 data-i18n="siteName">Ali Reza</h1>
+      <p data-i18n="siteRole">QA engineer, test automation learner and web developer</p>
+    </div>
+    <div class="language-switcher">
+      <label for="language-select" data-i18n="languageLabel">Language</label>
+      <select id="language-select" aria-label="Language selector">
+        <option value="sv">Svenska</option>
+        <option value="en">English</option>
+        <option value="fa">فارسی</option>
+      </select>
+    </div>
+  </div>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav-list" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="site-nav">
+    <ul id="site-nav-list">
+      <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+      <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+            <li><a href="courses.html" data-i18n="nav.courses">Courses</a></li>
+<li><a href="qa.html" class="active" data-i18n="nav.qa">QA Work</a></li>
+      <li><a href="about.html" data-i18n="nav.about">About</a></li>
+      <li><a href="cv.html" data-i18n="nav.cv">CV</a></li>
+      <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero-card">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow" data-i18n="startingupsprinto.eyebrow">Crossroad routine</span>
+        <h2 class="hero-title" data-i18n="startingupsprinto.title">Starting Up Sprinto</h2>
+        <p class="hero-copy" data-i18n="startingupsprinto.intro">This page shows the working start and stop routine for the Crossroad web app, together with control commands and a MinIO fallback command.</p>
+      </div>
+      <div class="hero-side">
+        <section class="hero-visual" aria-label="3D hero preview area">
+          <canvas id="hero-webgl-canvas" role="img" aria-label="Interactive hero canvas placeholder"></canvas>
+          <p class="hero-visual-fallback">WebGL slot ready for Rive or Spline asset.</p>
+          <noscript><p class="hero-visual-fallback">Enable JavaScript to load interactive 3D assets.</p></noscript>
+        </section>
+        <aside class="stats-card">
+          <h3 data-i18n="startingupsprinto.focusTitle">Important</h3>
+          <ul class="stats-list">
+            <li data-i18n="startingupsprinto.focus1">MinIO runs on ports 15000 and 15001, not 9000 and 9001.</li>
+            <li data-i18n="startingupsprinto.focus2">Run $env:S3_ENDPOINT="http://localhost:15000" before npm run dev in the same terminal.</li>
+            <li data-i18n="startingupsprinto.focus3">Use the control commands to confirm both the app and MinIO are up.</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="two-column">
+      <article class="info-card">
+        <h3 data-i18n="startingupsprinto.roleTitle">Start</h3>
+        <ul class="bullet-list">
+          <li data-i18n="startingupsprinto.role1">docker start crossroads-postgres crossroads-redis-1 minio</li>
+          <li data-i18n="startingupsprinto.role2">$env:S3_ENDPOINT="http://localhost:15000"</li>
+          <li data-i18n="startingupsprinto.role3">npm run dev</li>
+          <li data-i18n="startingupsprinto.role4">Run the commands in that order.</li>
+        </ul>
+      </article>
+      <article class="info-card">
+        <h3 data-i18n="startingupsprinto.valueTitle">Kontroller</h3>
+        <ul class="bullet-list">
+          <li data-i18n="startingupsprinto.valueText">Invoke-WebRequest http://localhost:3000 -UseBasicParsing</li>
+          <li data-i18n="startingupsprinto.check2">Invoke-WebRequest http://localhost:15000/minio/health/live -UseBasicParsing</li>
+          <li data-i18n="startingupsprinto.check3">docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2 data-i18n="startingupsprinto.stopTitle">Viktigt</h2>
+    <p class="panel-intro" data-i18n="startingupsprinto.stopIntro">The environment only starts correctly when these details are used exactly as shown.</p>
+    <div class="two-column">
+      <article class="info-card">
+        <h3 data-i18n="startingupsprinto.stopStepsTitle">Viktigt att komma ihåg</h3>
+        <ul class="bullet-list">
+          <li data-i18n="startingupsprinto.stopStep1">MinIO runs on 15000 and 15001, not 9000 and 9001.</li>
+          <li data-i18n="startingupsprinto.stopStep2">You must run $env:S3_ENDPOINT="http://localhost:15000" before npm run dev.</li>
+          <li data-i18n="startingupsprinto.stopStep3">Run the environment variable in the same terminal as npm run dev.</li>
+          <li data-i18n="startingupsprinto.stopStep4">Use the control commands after startup to verify the environment.</li>
+        </ul>
+      </article>
+      <article class="info-card">
+        <h3 data-i18n="startingupsprinto.stopNotesTitle">Stop</h3>
+        <ul class="bullet-list">
+          <li data-i18n="startingupsprinto.stopNote1">Ctrl + C</li>
+          <li data-i18n="startingupsprinto.stopNote2">docker stop crossroads-postgres crossroads-redis-1 minio</li>
+          <li data-i18n="startingupsprinto.stopNote3">First stop the dev server, then stop the containers.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2 data-i18n="startingupsprinto.startOrderTitle">Om minio saknas någon gång</h2>
+    <p class="panel-intro" data-i18n="startingupsprinto.startOrderIntro">Use this Docker command to recreate and start MinIO if it is missing.</p>
+    <article class="info-card">
+      <h3 data-i18n="startingupsprinto.startOrderCommandsTitle">MinIO fallback</h3>
+      <ul class="bullet-list">
+        <li data-i18n="startingupsprinto.startOrderStep1">docker run -d --name minio --network crossroads_app-network -p 15000:9000 -p 15001:9001 -e MINIO_ROOT_USER=minioadmin -e MINIO_ROOT_PASSWORD=minioadmin -v crossroads_minio_data:/data minio/minio server /data --console-address ":9001"</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer class="footer" data-i18n="footer">Portfolio built to present QA work, development, and real-world projects.</footer>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
+

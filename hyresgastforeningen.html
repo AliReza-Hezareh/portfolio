@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -23,11 +23,15 @@
       </select>
     </div>
   </div>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav-list" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
   <nav class="site-nav">
-    <ul>
+    <ul id="site-nav-list">
       <li><a href="index.html" data-i18n="nav.home">Home</a></li>
       <li><a href="projects.html" class="active" data-i18n="nav.projects">Projects</a></li>
-      <li><a href="qa.html" data-i18n="nav.qa">QA Work</a></li>
+            <li><a href="courses.html" data-i18n="nav.courses">Courses</a></li>
+<li><a href="qa.html" data-i18n="nav.qa">QA Work</a></li>
       <li><a href="about.html" data-i18n="nav.about">About</a></li>
       <li><a href="cv.html" data-i18n="nav.cv">CV</a></li>
       <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
@@ -43,11 +47,18 @@
         <h2 class="hero-title" data-i18n="housing.title">Hyresgastforeningen Marmorvagen 13</h2>
         <p class="hero-copy" data-i18n="housing.intro">This is a website I created for my local tenants' association. The project shows how I combine web development with active responsibility in a local organization.</p>
       </div>
-      <aside class="stats-card">
-        <h3 data-i18n="housing.repoTitle">Repository</h3>
-        <p data-i18n="housing.repoText">The project code is available on GitHub.</p>
-        <a class="btn" href="https://github.com/AliReza-Hezareh/Hyresg-stf-reningenMarmorv-gen13-site.git" target="_blank" rel="noreferrer" data-i18n="housing.repoLink">View repository</a>
-      </aside>
+      <div class="hero-side">
+        <section class="hero-visual" aria-label="3D hero preview area">
+          <canvas id="hero-webgl-canvas" role="img" aria-label="Interactive hero canvas placeholder"></canvas>
+          <p class="hero-visual-fallback">WebGL slot ready for Rive or Spline asset.</p>
+          <noscript><p class="hero-visual-fallback">Enable JavaScript to load interactive 3D assets.</p></noscript>
+        </section>
+        <aside class="stats-card">
+          <h3 data-i18n="housing.repoTitle">Repository</h3>
+          <p data-i18n="housing.repoText">The project code is available on GitHub.</p>
+          <a class="btn" href="https://github.com/AliReza-Hezareh/Hyresg-stf-reningenMarmorv-gen13-site.git" target="_blank" rel="noreferrer" data-i18n="housing.repoLink">View repository</a>
+        </aside>
+      </div>
     </div>
   </section>
 
@@ -75,3 +86,4 @@
 <script src="js/script.js"></script>
 </body>
 </html>
+
