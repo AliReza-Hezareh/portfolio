@@ -1,7 +1,7 @@
 ﻿# Testresultat - Portfolio 2026
 
-- KÃ¶rningsdatum: 2026-05-27 12:43:17
-- MiljÃ¶: Lokal statisk HTML i Windows/PowerShell
+- Körningsdatum: 2026-05-27 16:06:42
+- Miljö: Lokal statisk HTML i Windows/PowerShell
 - Totalt: 94
 - Pass: 94
 - Fail: 0
@@ -29,36 +29,36 @@
 | TC-COURSE-FILE | Kurssida finns: course-testtekniker-standard.html | Pass | Filen ska finnas | course-testtekniker-standard.html |  |
 | TC-COURSE-FILE | Kurssida finns: course-testverktyg-standard.html | Pass | Filen ska finnas | course-testverktyg-standard.html |  |
 | TC-COURSE-FILE | Kurssida finns: course-utvarderingar.html | Pass | Filen ska finnas | course-utvarderingar.html |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-jobb-lia-tips.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-applied-script.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-examensarbete.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-allmant.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-gui-anvandbarhetstest.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-istqb-foundation-level.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-kommunikation-teamarbete.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-krav-anvandningsfall.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-lia-1.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-lia-2.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-python-preparandkurs.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-qa-introduktion.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-randoms.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-studerande-forum.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-test-automation.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-testdata-testmiljoer-dataskydd.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-testnivaer-metodiker.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-teststrategi-planering.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-testtekniker-standard.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-testverktyg-standard.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-COURSE-LINK | Kurshubb lÃ¤nkar till course-utvarderingar.html | Pass | courses.html ska lÃ¤nka till sidan | LÃ¤nk kontrollerad |  |
-| TC-NAV-COURSES | Meny har Kurser-lÃ¤nk: index.html | Pass | Alla core-sidor ska lÃ¤nka till courses.html | index.html |  |
-| TC-NAV-COURSES | Meny har Kurser-lÃ¤nk: about.html | Pass | Alla core-sidor ska lÃ¤nka till courses.html | about.html |  |
-| TC-NAV-COURSES | Meny har Kurser-lÃ¤nk: projects.html | Pass | Alla core-sidor ska lÃ¤nka till courses.html | projects.html |  |
-| TC-NAV-COURSES | Meny har Kurser-lÃ¤nk: qa.html | Pass | Alla core-sidor ska lÃ¤nka till courses.html | qa.html |  |
-| TC-NAV-COURSES | Meny har Kurser-lÃ¤nk: cv.html | Pass | Alla core-sidor ska lÃ¤nka till courses.html | cv.html |  |
-| TC-NAV-COURSES | Meny har Kurser-lÃ¤nk: contact.html | Pass | Alla core-sidor ska lÃ¤nka till courses.html | contact.html |  |
-| TC-NAV-COURSES | Meny har Kurser-lÃ¤nk: hyresgastforeningen.html | Pass | Alla core-sidor ska lÃ¤nka till courses.html | hyresgastforeningen.html |  |
-| TC-NAV-COURSES | Meny har Kurser-lÃ¤nk: sosbarnbyar.html | Pass | Alla core-sidor ska lÃ¤nka till courses.html | sosbarnbyar.html |  |
-| TC-NAV-COURSES | Meny har Kurser-lÃ¤nk: startingupsprinto.html | Pass | Alla core-sidor ska lÃ¤nka till courses.html | startingupsprinto.html |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-jobb-lia-tips.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-applied-script.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-examensarbete.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-allmant.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-gui-anvandbarhetstest.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-istqb-foundation-level.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-kommunikation-teamarbete.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-krav-anvandningsfall.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-lia-1.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-lia-2.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-python-preparandkurs.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-qa-introduktion.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-randoms.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-studerande-forum.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-test-automation.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-testdata-testmiljoer-dataskydd.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-testnivaer-metodiker.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-teststrategi-planering.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-testtekniker-standard.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-testverktyg-standard.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-COURSE-LINK | Kurshubb länkar till course-utvarderingar.html | Pass | courses.html ska länka till sidan | Länk kontrollerad |  |
+| TC-NAV-COURSES | Meny har Kurser-länk: index.html | Pass | Alla core-sidor ska länka till courses.html | index.html |  |
+| TC-NAV-COURSES | Meny har Kurser-länk: about.html | Pass | Alla core-sidor ska länka till courses.html | about.html |  |
+| TC-NAV-COURSES | Meny har Kurser-länk: projects.html | Pass | Alla core-sidor ska länka till courses.html | projects.html |  |
+| TC-NAV-COURSES | Meny har Kurser-länk: qa.html | Pass | Alla core-sidor ska länka till courses.html | qa.html |  |
+| TC-NAV-COURSES | Meny har Kurser-länk: cv.html | Pass | Alla core-sidor ska länka till courses.html | cv.html |  |
+| TC-NAV-COURSES | Meny har Kurser-länk: contact.html | Pass | Alla core-sidor ska länka till courses.html | contact.html |  |
+| TC-NAV-COURSES | Meny har Kurser-länk: hyresgastforeningen.html | Pass | Alla core-sidor ska länka till courses.html | hyresgastforeningen.html |  |
+| TC-NAV-COURSES | Meny har Kurser-länk: sosbarnbyar.html | Pass | Alla core-sidor ska länka till courses.html | sosbarnbyar.html |  |
+| TC-NAV-COURSES | Meny har Kurser-länk: startingupsprinto.html | Pass | Alla core-sidor ska länka till courses.html | startingupsprinto.html |  |
 | TC-HTML-BASIC | HTML-basstruktur: about.html | Pass | Doctype, charset och viewport ska finnas | about.html |  |
 | TC-HTML-BASIC | HTML-basstruktur: contact.html | Pass | Doctype, charset och viewport ska finnas | contact.html |  |
 | TC-HTML-BASIC | HTML-basstruktur: course-allmant.html | Pass | Doctype, charset och viewport ska finnas | course-allmant.html |  |

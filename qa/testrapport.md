@@ -1,16 +1,16 @@
 ﻿# Testrapport - Portfolio 2026
 
 ## Sammanfattning
-Portfolio, trendspÃ¥r och kurssidor kontrollerades med statiska QA-kontroller.
+Portfolio, trendspår och kurssidor kontrollerades med statiska QA-kontroller.
 
 ## Test Execution Summary
-| MÃ¤tvÃ¤rde | Antal |
+| Mätvärde | Antal |
 |---|---:|
 | Totalt | 94 |
 | Passed | 94 |
 | Failed | 0 |
 | Blocked | 0 |
-| Ej kÃ¶rda | 0 |
+| Ej körda | 0 |
 
 ## Defect Summary
 | Severity | Antal |
@@ -20,8 +20,8 @@ Portfolio, trendspÃ¥r och kurssidor kontrollerades med statiska QA-kontroller.
 | Medium | 0 |
 | Low | 0 |
 
-## KvalitetsbedÃ¶mning
-GodkÃ¤nd fÃ¶r statisk visning. Manuell responsiv testning behÃ¶vs fortfarande i browser.
+## Kvalitetsbedömning
+Godkänd för statisk visning. Manuell responsiv testning behövs fortfarande i browser.
 
-## Avvikelser frÃ¥n testplan
-Det finns inget package.json. DÃ¤rfÃ¶r finns inga npm build/lint/test-kommandon att kÃ¶ra.
+## Avvikelser från testplan
+Det finns inget package.json. Därför finns inga npm build/lint/test-kommandon att köra.
